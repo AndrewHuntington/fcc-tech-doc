@@ -100,3 +100,43 @@ code {
   height: 88%;
   overflow-y: scroll;
 }
+
+@media (max-width: 800px) {
+  #body {
+    overflow-x: hidden;
+  }
+
+  #navbar {
+    box-sizing: border-box;
+    border-right: inherit;
+    padding-top: 0px;
+    position: relative;
+    max-height: 350px;
+    overflow-y: hidden;
+    width: 100%;
+  }
+
+  #navbar header {
+    padding: 20px 0;
+    width: 100%;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+
+  #nav-links {
+    box-sizing: border-box;
+    border: 1px solid black;
+    position: relative;
+    max-height: 275px;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .nav-link {
+    padding-right: 0px;
+    width: 100%;
+  }
+}
