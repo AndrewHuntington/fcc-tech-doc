@@ -1,6 +1,6 @@
 # freeCodeCamp Technical Documentation Page
 
-### View on [CodePen]()
+### View on [CodePen](https://codepen.io/strugglebunny/full/gOmKaob)
 
 A technical documentation page built for [freeCodeCamp](https://www.freecodecamp.com)'s Responsive Web Design Certification.
 
